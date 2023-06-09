@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Geologica:wght@500&display=swap');
+
+$primary-color: #fff166;
+$font-family:  "Geologica",Helvetica,Arial,sans-serif;
+$title-font-family:  "Gasoek One",Helvetica,Arial,sans-serif;
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+li, p {font-family: $font-family};
+ul{
+
+     list-style-type: none;}
+
+.🔲{
+    display: flex;
+    justify-content: space-around;
+    min-height: 40rem;
+    padding: 20px;
+
+    img{
+        width: 25vw;
+        height: auto;
+        max-width: 300px;
+        max-height: auto;
+    }
+    .🅰 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+            ul{
+                justify-self: flex-end;
+                display: flex;
+                justify-content: center;
+
+                    li{
+                        border-radius: 40px 40px 40px 40px;
+                        border: 2px solid #100f0f;
+                        margin: 0 5px;
+                        padding: 4px
+                    }
+            }
+
+            p{
+            text-align: left;
+            margin: 20px 10px;
+            }
+
+            h2{
+                font-family: $title-font-family;
+                font-size: 4em;
+                font-weight: 700;
+                margin-bottom: 20px;
+                color:#fff166
+            };
+        }
+}
+
+h3{
+    margin: 7px; 
+    font-family: $title-font-family;
+    font-size: 3em;
+    display: flex;
+
+}
+
+#auteurs {
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+    
+}
+.🌸 {
+        font-size: 1rem;
+        display: flex;
+        margin: 30px 5px;
+    }
+
+.🔜 {  
+        position: relative;
+
+    .♻ {   position: relative;
+            font-size: 2rem;
+            letter-spacing: -1px;
+            
+            
+    }
+    .🤎 {
+                background: #fff166 ;
+                position: absolute;
+                z-index: -1;
+                width:70%;
+                height: 40%;
+                right: 10px;
+                bottom: 4px;
+            }
+}
+   
+#parution {display: flex;
+    justify-content: center;
+    margin: 3em 0;
+    padding: 2em;
+    background: #fff166;
+    
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+            li {
+                margin: 5px;
+            }
+    }
+}
+   
+#☮ {
+    position: fixed;
+   left: 35%;
+ bottom : 3em;
+ padding: 7px;
+ border-radius: 40px 40px 40px 40px;
+border: 2px solid #100f0f;
+}
+
+    
+
+#logo{
+    object-fit: contain;
+    max-width: 88px;
+    max-height: 168px;
+}
+
